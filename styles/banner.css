@@ -1,0 +1,55 @@
+.banner-home {
+    background-image: url(../assets/welcome-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: var(--gray);
+    font-size: 2rem;
+    font-family: var(--second-font);
+    height: auto;
+    padding: 8rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-xp {
+    background-image: url(../assets/summer8.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: var(--gray);
+    font-size: 2rem;
+    font-family: var(--second-font);
+    height: auto;
+    padding: 8rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-map {
+    background-image: url(../assets/setoresBanner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: var(--gray);
+    font-size: 2rem;
+    font-family: var(--second-font);
+    height: auto;
+    padding: 8rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-info {
+    background-image: url(../assets/infoGeralBanner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: var(--gray);
+    font-size: 2rem;
+    font-family: var(--second-font);
+    height: auto;
+    padding: 8rem 0;
+    text-align: center;
+    width: 100%;
+}

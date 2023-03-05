@@ -1,0 +1,75 @@
+.lineup-tittle {
+    color: var(--gray);
+    font-family: var(--second-font);
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.data-box {
+    background-color: var(--mostard);
+    margin: 0 auto;
+    padding: 1rem;
+    width: 75%;
+}
+
+.data-lineup {
+    color: var(--white);
+    font-family: var(--second-font);
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bands-container {
+    margin-top: 3rem;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.band-list {
+    list-style: none;
+}
+
+.band-item {
+    margin-bottom: 1rem;
+}
+
+.band-item:nth-child(2n) {
+    margin-top: 2rem;
+}
+
+.band__extra-bold {
+    color: var(--gray);
+    font-weight: 800;
+    font-family: var(--main-font);
+    font-size: 3rem;
+}
+
+.band__bold--big {
+    color: var(--gray);
+    font-weight: 700;
+    font-family: var(--main-font);
+    font-size: 2.5rem;
+}
+
+.band__bold--small {
+    color: var(--gray); 
+    font-weight: 700;
+    font-family: var(--main-font);
+    font-size: 2rem;
+}
+
+.band__medium {
+    color: var(--gray); 
+    font-weight: 500;
+    font-family: var(--main-font);
+    font-size: 2rem;
+}
+
+.lineup__bottom-img {
+    margin: 3rem auto 0 auto;
+}
+

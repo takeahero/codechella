@@ -1,0 +1,25 @@
+.buy-btn {
+    align-items: center;
+    box-shadow: .2rem .2rem rgba(0, 0, 0, .5);
+    border-radius: .8rem;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 0 auto;
+    padding: 1rem 0;
+    width: 80%;
+}
+
+.btn-tittle {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: var(--main-font);
+    text-decoration: none;
+    margin-right: .5rem;
+}
+
+.ticket-icon.material-icons {
+    color: var(--white);
+    margin-left: .5rem;
+}

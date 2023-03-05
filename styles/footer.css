@@ -1,0 +1,37 @@
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo--gray {
+    margin-top: 1.5rem;
+}
+
+.call-sns {
+    font-weight: 500;
+    font-size: 1.25rem;
+    font-family: var(--main-font);
+    margin-top: .5rem;
+}
+
+.sns-container {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    list-style: none;
+}
+
+.sns-item {
+    margin-top: .5rem;
+    width: 2rem;
+}
+
+.copyright {
+    font-weight: 500;
+    font-size: 1.25rem;
+    font-family: var(--main-font);
+    margin: 2rem 1.5rem;
+    text-align: center;
+}

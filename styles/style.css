@@ -1,0 +1,31 @@
+@import url("header.css");
+@import url("menu.css");
+@import url("info.css");
+@import url("buttons.css");
+@import url("banner.css");
+@import url("about.css");
+@import url("lineup.css");
+@import url("footer.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --dark-blue: rgb(46, 124, 163);
+    --dark-blue-transparency: rgb(46, 124, 163, 0.5);
+    --white: #FFF;
+    --gray: rgb(68, 68, 68);
+    --mostard: rgb(223, 144, 16);
+    --main-font: 'Raleway', sans-serif;
+    --second-font: 'Calistoga', sans-serif;
+}
+
+body {
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    background-repeat: no-repeat;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
