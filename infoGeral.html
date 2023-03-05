@@ -17,6 +17,8 @@
     <nav class="nav-container">
         <img  class="logo" src="assets/Logo1 1.svg" alt="codechella logo">
         <ul class="menu">
+            <li><a class="menu-item" href="index.html">Home</a></li>
+            <hr>
             <li><a class="menu-item" href="experiencia.html">A experiência</a></li>
             <hr>
             <li><a class="menu-item" href="setores.html">Mapa de setores</a></li>
@@ -30,25 +32,29 @@
             <span class="menu-icon material-icons">menu</span>
             <span class="close-icon material-icons">close</span>
           </button>
-        </nav>
+    </nav>
     <!-- welcome banner -->
     <header class="banner-container">
       <h1 class="banner-info">Informações Gerais</h1>
       </header>
-    <!-- dropdown section -->
 
-    <section class="info-container">
+      <section class="info-container">
+        <h2 class="about-tittle">Perguntas frequentes</h2>
+        
+        <!-- dropdown section -->
         <div class="info-box">
             <div class="info-box__header">
-                <button class="info-box__btn">
-                    <span class="menu-icon material-icons">menu</span>
-                    <span class="close-icon material-icons">close</span>
-                    <div class="info-box__content">
-
-                    </div>
-                </button>   
+              <button type="button" class="info-box__btn">
+                <span class="more-icon material-icons">expand_more</span>
+                <span class="less-icon material-icons">expand_less</span>
+              </button>   
+              <h3 class="info-box__tittle">titulo aqui</h3>
+            </div>
+            <div class="info-box__content">
+              <p class="info-box__item">texto aqui</p>
             </div>
         </div>
+
     </section>
 
 
@@ -81,5 +87,6 @@
 
     <script src="js/main.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/collapse.js"></script>
 </body>
 </html>

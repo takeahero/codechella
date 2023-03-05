@@ -15,6 +15,7 @@
 
 :root {
     --dark-blue: rgb(46, 124, 163);
+    --light-blue: rgb(200, 222, 239);
     --dark-blue-transparency: rgb(46, 124, 163, 0.5);
     --white: #FFF;
     --gray: rgb(68, 68, 68);
