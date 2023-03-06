@@ -1,4 +1,4 @@
-.info-container {
+.about-tittle {
     text-align: center;
 }
 
@@ -22,6 +22,7 @@
     font-weight: 700;
     font-family: var(--main-font);
     color: var(--white);
+    cursor: pointer;
 }
 
 .info-box__content {
@@ -32,7 +33,6 @@
     font-family: var(--main-font);
     width: 100%;
     padding: 1rem 0;
-
 }
 
 .info-box__btn {
@@ -40,6 +40,13 @@
     right: 0;
     background-color: transparent;
     color: var(--white);
-
 }
 
+.proibidos {
+    list-style: none;
+}
+
+.atention {
+    color: red;
+    font-weight: 700;
+}

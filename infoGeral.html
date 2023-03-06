@@ -14,6 +14,7 @@
 
   </head>
 <body>
+  
     <nav class="nav-container">
         <img  class="logo" src="assets/Logo1 1.svg" alt="codechella logo">
         <ul class="menu">
@@ -41,19 +42,65 @@
       <section class="info-container">
         <h2 class="about-tittle">Perguntas frequentes</h2>
         
-        <!-- dropdown section -->
-        <div class="info-box">
-            <div class="info-box__header">
-              <button type="button" class="info-box__btn">
-                <span class="more-icon material-icons">expand_more</span>
-                <span class="less-icon material-icons">expand_less</span>
-              </button>   
-              <h3 class="info-box__tittle">titulo aqui</h3>
-            </div>
-            <div class="info-box__content">
-              <p class="info-box__item">texto aqui</p>
-            </div>
-        </div>
+        <!-- summary section -->
+        <details class="info-box">
+          <summary class="info-box__header info-box__tittle">
+            Quais serão as atrações?</summary>
+            <p class="info-box__content info-box__item">
+              Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o 
+              segundo (12/03) com bandas pop. Confira o line-up em detalhes clicando 
+              neste <a href="index.html">link</a>.
+            </p>
+          </details>
+        
+          <details class="info-box">
+                <summary class="info-box__header info-box__tittle">
+                  Qual é a classificação etária?
+                </summary>
+                <p class="info-box__content info-box__item">
+                  Menores de 18 anos devem estar acompanhados por um responsável.
+                </p>
+          </details>
+          
+        <details class="info-box">
+              <summary class="info-box__header info-box__tittle">
+                Quais são os setores disponíveis?
+              </summary>
+              <p class="info-box__content info-box__item">
+                São quatro setores disponíveis. Mais informações sobre setores 
+                <a href="setores.html">aqui.</a>
+              </p>
+        </details>
+        
+        <details class="info-box">
+              <summary class="info-box__header info-box__tittle">
+                Quais são os itens proibidos?
+              </summary>
+              <ul class="info-box__content info-box__item proibidos">
+                <li class="item-proibido">Qualquer material de vidro.</li>
+                <li class="item-proibido">Guarda-chuva.</li>
+                <li class="item-proibido">Fogos de artifício.</li>
+                <li class="item-proibido">Substâncias ilegais.</li>
+                <li class="item-proibido">Arma de fogo ou arma branca.</li>
+                <li class="item-proibido">Medicamento, apenas com apresentação de receita médica.</li>
+                <li class="item-proibido">Laser, drone e outros elêtronicos.</li>
+                <li class="item-proibido">Cadeiras.</li>
+                <li class="item-proibido">E outros itens, consulte para mais informações.</li>
+              </ul>
+              <p class="info-box__content info-box__item">
+              Para mais informações entre em contato pelas redes sociais.
+              </p>
+        </details>
+        
+        <details class="info-box">
+              <summary class="info-box__header info-box__tittle">
+              Lives do evento são permitidas?
+              </summary>
+              <p class="info-box__content info-box__item">
+                Lives, serão permitidas com o pedido de autorização 
+                <span class="atention">antecipada</span>.
+              </p>
+        </details>        
 
     </section>
 
