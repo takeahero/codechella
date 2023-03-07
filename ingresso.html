@@ -62,7 +62,19 @@
         </select>
 
         <label for="birthday" class="form-label">Data de nascimento:</label>
-        <input type="date" name="birthday" id="birthday" required>
+        <div class="birthday-container">
+          <select name="birthday" id="birthday">
+              <option value="">dia</option>
+          </select>
+
+          <select name="birthday" id="birthday">
+            <option value="">mês</option>
+        </select>
+
+        <select name="birthday" id="birthday">
+          <option value="">ano</option>
+      </select>
+        </div>
 
         <button type="submit" class="buy-btn">Go!&nbsp;</button>
     </form>
@@ -97,6 +109,5 @@
 
     <script src="js/main.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/collapse.js"></script>
 </body>
 </html>

@@ -17,6 +17,15 @@
 	position: absolute;
 }
 
+.acc-list {
+    color: var(--gray);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1.10rem;
+    list-style: none;
+    padding: 1rem;
+}
+
 .accordion > label{
     background-color: var(--dark-blue);
 	cursor: pointer;

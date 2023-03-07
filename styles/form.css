@@ -6,6 +6,24 @@
     margin-top: 3rem;
 }
 
+.birthday-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.birthday-container > select {
+    color: var(--gray);
+    font-weight: 500;
+    font-family: var(--main-font);
+    font-size: 1.25rem;
+    height: 3rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
 .form-label {
     font-family: var(--main-font);
     font-size: 2rem;
@@ -17,22 +35,27 @@
 .form-container > input {
     height: 3rem;
     margin-top: .5rem;
+    width: 100%;
 }
 
 .form-container > select {
+    color: var(--gray);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1.25rem;
     height: 3rem;
     margin-top: .5rem;
 }
 
 .form-container > button {
-    margin-top: 2rem;
     color: var(--white);
     font-family: var(--main-font);
     font-size: 1.25rem;
     font-weight: 700;
+    margin-top: 2rem;
 }
 
 .form-container > button::after {
-    font-family: var(--material-icons);
     content: '\eb9b';
+    font-family: var(--material-icons);
 }
