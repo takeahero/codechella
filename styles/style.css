@@ -1,10 +1,10 @@
 @import url("header.css");
-@import url("menu.css");
 @import url("info.css");
 @import url("buttons.css");
 @import url("banner.css");
 @import url("about.css");
 @import url("lineup.css");
+@import url(form.css);
 @import url("footer.css");
 
 * {
@@ -22,6 +22,7 @@
     --mostard: rgb(223, 144, 16);
     --main-font: 'Raleway', sans-serif;
     --second-font: 'Calistoga', sans-serif;
+    --material-icons: 'Material Icons';
 }
 
 body {

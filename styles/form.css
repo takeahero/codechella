@@ -1,0 +1,38 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.form-label {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gray);
+    margin-top: 2rem;
+}
+
+.form-container > input {
+    height: 3rem;
+    margin-top: .5rem;
+}
+
+.form-container > select {
+    height: 3rem;
+    margin-top: .5rem;
+}
+
+.form-container > button {
+    margin-top: 2rem;
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.form-container > button::after {
+    font-family: var(--material-icons);
+    content: '\eb9b';
+}

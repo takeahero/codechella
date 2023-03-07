@@ -15,94 +15,101 @@
   </head>
 <body>
   
-    <nav class="nav-container">
+    <header class="nav-container">
         <img  class="logo" src="assets/Logo1 1.svg" alt="codechella logo">
-        <ul class="menu">
-            <li><a class="menu-item" href="index.html">Home</a></li>
-            <hr>
-            <li><a class="menu-item" href="experiencia.html">A experiência</a></li>
-            <hr>
-            <li><a class="menu-item" href="setores.html">Mapa de setores</a></li>
-            <hr>
-            <li><a class="menu-item" href="infoGeral.html">Informações</a></li>
-            <hr>
-            <li><a class="menu-item" href="#">Ingressos</a></li>
+        <nav>
+          <ul class="menu">
+              <li><a class="menu-item" href="index.html">Home</a></li>
+              <hr>
+              <li><a class="menu-item" href="experiencia.html">A experiência</a></li>
+              <hr>
+              <li><a class="menu-item" href="setores.html">Mapa de setores</a></li>
+              <hr>
+              <li><a class="menu-item" href="infoGeral.html">Informações</a></li>
+              <hr>
+              <li><a class="menu-item" href="ingresso.html">Ingressos</a></li>
           </ul>
-          <button class="hamburger">
-            <!-- menu btn -->
-            <span class="menu-icon material-icons">menu</span>
-            <span class="close-icon material-icons">close</span>
-          </button>
-    </nav>
+            <button class="hamburger">
+              <!-- menu btn -->
+              <span class="menu-icon material-icons">menu</span>
+              <span class="close-icon material-icons">close</span>
+            </button>
+        </nav>
+    </header>
     <!-- welcome banner -->
-    <header class="banner-container">
+    <div class="banner-container">
       <h1 class="banner-info">Informações Gerais</h1>
-      </header>
+    </div>
 
       <section class="info-container">
         <h2 class="about-tittle">Perguntas frequentes</h2>
         
-        <!-- summary section -->
-        <details class="info-box">
-          <summary class="info-box__header info-box__tittle">
-            Quais serão as atrações?</summary>
-            <p class="info-box__content info-box__item">
-              Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o 
-              segundo (12/03) com bandas pop. Confira o line-up em detalhes clicando 
-              neste <a href="index.html">link</a>.
+        <!-- accordion section -->
+        <div class="accordion">
+          <input id="toggle1" type="radio" class="accordion-toggle" name="toggle" />
+          <label for="toggle1">Quais serão as atrações?</label>
+          <section>
+            <p class="acc-description">
+              Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo 
+              (12/03) com bandas pop. Confira o line-up em detalhes clicando neste link!
             </p>
-          </details>
+          </section>
+        </div>
         
-          <details class="info-box">
-                <summary class="info-box__header info-box__tittle">
-                  Qual é a classificação etária?
-                </summary>
-                <p class="info-box__content info-box__item">
-                  Menores de 18 anos devem estar acompanhados por um responsável.
-                </p>
-          </details>
+        <div class="accordion">
+          <input id="toggle2" type="radio" class="accordion-toggle" name="toggle" />
+          <label for="toggle2">Qual é a classificação etária? </label>
+          <section>
+            <p class="acc-description">
+              A partir de 16 anos, todo mundo pode entrar. De 13 a 15 anos, tem que estar 
+              acompanhado dos pais ou responsáveis legais. Menores de 10 anos não podem entrar.
+            </p>
+          </section>
+        </div>
           
-        <details class="info-box">
-              <summary class="info-box__header info-box__tittle">
-                Quais são os setores disponíveis?
-              </summary>
-              <p class="info-box__content info-box__item">
-                São quatro setores disponíveis. Mais informações sobre setores 
-                <a href="setores.html">aqui.</a>
-              </p>
-        </details>
+        <div class="accordion">
+          <input id="toggle3" type="radio" class="accordion-toggle" name="toggle" />
+          <label for="toggle3">Quais são os setores disponíveis?</label>
+          <section>
+            <ul class="acc-list">
+              <li class="acc-list__item">Pista premium</li>
+              <li class="acc-list__item">Pista comum</li>
+              <li class="acc-list__item">Cadeiras térreo</li>
+              <li class="acc-list__item">Cadeiras superiores</li>
+              <li class="acc-list__item">Rampas</li>
+            </ul>
+            <p class="acc-description">Para mais informações acesse a página de 
+              <a href="setores.html">setores</a></p>.
+          </section>
+        </div>
         
-        <details class="info-box">
-              <summary class="info-box__header info-box__tittle">
-                Quais são os itens proibidos?
-              </summary>
-              <ul class="info-box__content info-box__item proibidos">
-                <li class="item-proibido">Qualquer material de vidro.</li>
-                <li class="item-proibido">Guarda-chuva.</li>
-                <li class="item-proibido">Fogos de artifício.</li>
-                <li class="item-proibido">Substâncias ilegais.</li>
-                <li class="item-proibido">Arma de fogo ou arma branca.</li>
-                <li class="item-proibido">Medicamento, apenas com apresentação de receita médica.</li>
-                <li class="item-proibido">Laser, drone e outros elêtronicos.</li>
-                <li class="item-proibido">Cadeiras.</li>
-                <li class="item-proibido">E outros itens, consulte para mais informações.</li>
-              </ul>
-              <p class="info-box__content info-box__item">
-              Para mais informações entre em contato pelas redes sociais.
-              </p>
-        </details>
-        
-        <details class="info-box">
-              <summary class="info-box__header info-box__tittle">
-              Lives do evento são permitidas?
-              </summary>
-              <p class="info-box__content info-box__item">
-                Lives, serão permitidas com o pedido de autorização 
-                <span class="atention">antecipada</span>.
-              </p>
-        </details>        
+        <div class="accordion">
+          <input id="toggle4" type="radio" class="accordion-toggle" name="toggle" />
+          <label for="toggle4">Quais são os itens proibidos?</label>
 
-    </section>
+          <section>
+            <p class="acc-description">
+              Garrafas, latas, bebidas, utensílios de armazenagem, embalagens rígidas com tampa, 
+              capacetes, cadeiras ou bancos, armas de fogo e armas brancas, objetos pontiagudos, 
+              cortantes e/ou perfurantes, correntes e cinturões, fogos de artifício, objetos de 
+              vidro, substâncias inflamáveis, cigarro eletrônico, corrosivas e ou tóxicas, 
+              revistas, jornais, livros e copo térmico ou similares.
+            </p>
+          </section>
+        </div>
+        
+        <div class="accordion">
+          <input id="toggle5" type="radio" class="accordion-toggle" name="toggle" />
+          <label for="toggle5">Quem tem direito a meia-entrada?</label>
+          <section>
+            <p class="acc-description">
+              De acordo com a Lei Federal, têm direito ao benefício da meia-entrada aqueles que 
+              preencherem os requisitos e apresentarem os documentos comprobatórios.
+            </p>
+          </section>
+        </div>        
+
+      </section>
 
 
     <!-- footer -->

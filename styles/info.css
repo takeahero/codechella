@@ -1,52 +1,63 @@
 .about-tittle {
+    margin: 3rem auto;
     text-align: center;
 }
 
-.info-box {
-    width: 90vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.accordion{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 1.25rem;
+	transform: translateZ(0);
+    width: 90vw;
 }
 
-.info-box__header {
+.accordion > .accordion-toggle{
+	display: none;
+	opacity: 0;
+	position: absolute;
+}
+
+.accordion > label{
     background-color: var(--dark-blue);
-    padding: 1rem 0;
-    width: 100%;
-}
-
-.info-box__tittle {
-    font-size: 2 rem;
-    font-weight: 700;
-    font-family: var(--main-font);
+	cursor: pointer;
     color: var(--white);
-    cursor: pointer;
-}
-
-.info-box__content {
-    background-color: var(--light-blue);
-    color: var(--gray);
+	display: block;
+    font-family: var(--main-font);
+    font-weight: 700;
     font-size: 1.25rem;
-    font-weight: 500;
+	position: relative;
+	padding: 1rem;
+}
+
+.accordion > label:after {
+    content: '\e5cf';
+    position: absolute;
+    right: 10px;
+    top: auto;
+    font-family: var(--material-icons);
+    transform: rotate(0deg);
+    transition: .3s transform;
+}
+
+.accordion > section{
+    background-color: var(--light-blue);
+	height: 0;
+	overflow: hidden;
+	transition: .3s all;
+}
+
+.accordion > .accordion-toggle:checked ~ label:after{
+    transform: rotate(180deg);
+}
+
+.accordion > .accordion-toggle:checked ~ section{
+    height: auto;
+}
+
+.accordion > section p {
+    color: var(--gray);
     font-family: var(--main-font);
-    width: 100%;
-    padding: 1rem 0;
-}
-
-.info-box__btn {
-    float: right;
-    right: 0;
-    background-color: transparent;
-    color: var(--white);
-}
-
-.proibidos {
-    list-style: none;
-}
-
-.atention {
-    color: red;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 1.10rem;
+    padding: 1rem;
 }
