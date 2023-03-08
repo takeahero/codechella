@@ -67,3 +67,17 @@
     text-align: center;
     width: 100%;
 }
+
+.banner-confirma-ingresso {
+    background-image: url(../assets/confirmaIngresso.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: var(--gray);
+    font-size: 2rem;
+    font-family: var(--second-font);
+    height: auto;
+    padding: 8rem 0;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.ticket-qr {
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(4, 4, 4, 0.2);
+    margin: 2rem auto 0 auto;
+    padding: 2rem;
+    width: 70%;
+}
+
+.qr-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.qr-logo--gray {
+    width: 45%;
+}
+
+.qr-fav-icon {
+    width: 10%;
+}
+
+.qr-code {
+    margin: 2rem auto 0 auto;
+    width: 80%;
+}
+
+.qr-img {
+    width: 100%;
+}
+
+.cardholder-details {
+    align-items: center;
+    color: var(--gray);
+    display: flex;
+    font-family: var(--main-font);
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.cardholder-name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ticket-details {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
