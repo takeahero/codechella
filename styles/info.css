@@ -11,7 +11,7 @@
     width: 90vw;
 }
 
-.accordion > .accordion-toggle{
+.accordion-toggle{
 	display: none;
 	opacity: 0;
 	position: absolute;
@@ -33,7 +33,7 @@
 	display: block;
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 	position: relative;
 	padding: 1rem;
 }
@@ -41,8 +41,8 @@
 .accordion > label:after {
     content: '\e5cf';
     position: absolute;
-    right: 10px;
-    top: auto;
+    right: 16px;
+    top: calc(4.25rem/2);
     font-family: var(--material-icons);
     transform: rotate(0deg);
     transition: .3s transform;
