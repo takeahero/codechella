@@ -1,0 +1,17 @@
+.xp-img-1,
+.xp-img-3 {
+    border-radius: 10px;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.xp-img-2 {
+    aspect-ratio: 13/16;
+    border-radius: 10px;
+    margin-top: 32px;
+    max-height: 50%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
