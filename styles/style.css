@@ -3,9 +3,11 @@
 @import url("buttons.css");
 @import url("banner.css");
 @import url("about.css");
+@import url("xp.css");
 @import url("lineup.css");
 @import url(form.css);
 @import url(confirma-ingresso.css);
+@import url(responsive.css);
 @import url("footer.css");
 
 * {

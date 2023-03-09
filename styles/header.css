@@ -42,14 +42,13 @@
     transition: transform 0.8s;
     top: 4rem;
     z-index: 99;
-    overflow: scroll;
     height: calc(90vh - 4rem);
     width: 100vw;
 }
 
 .menu-item {
     color: var(--white);
-    font-family: 'Raleway';
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
