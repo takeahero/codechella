@@ -1,0 +1,131 @@
+@media screen and (min-width: 1440px) {
+
+    .nav-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 14.625rem;
+        margin-left: 0;
+    }
+
+    .about-content {
+        margin: 0 3.047rem;
+    }
+    
+    .about-content :nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+    .about-container {
+        flex-direction: row;
+        padding: 0;
+        margin: 0 7.594rem; /*margim da home*/
+    }
+
+    .about-container:nth-child(2n) {
+        margin: 8rem 0;
+    }
+
+    .about-container:nth-child(2) .about-description {
+        text-align: right;
+    }
+
+    .about-container:nth-child(2) .about-tittle {
+        text-align: right;
+    }
+
+    .about-img,
+    .xp-img-1,
+    .xp-img-2,
+    .xp-img-3 {
+        aspect-ratio: 1.60/1;
+        width: 50%;
+    }
+
+    .about-container .about-description {
+        font-size: 1.25rem;
+        margin: 0;
+        text-align: left;
+    }
+
+    .about-container .about-tittle {
+        text-align: left;
+    }
+
+    .list-map {
+        padding: 0;
+    }
+
+    .sector-img-1 {
+        aspect-ratio: 1.60/1;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .sector-img-2 {
+        aspect-ratio: 1.60/.93;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .sector-img-3 {
+        aspect-ratio: 1.60/.933;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .sector-details {
+        display: flex;
+        margin: 0 7.613rem;
+        align-items: flex-start;
+    }
+
+    .sector-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .sector-content > .about-description {
+        text-align: center;
+    }
+
+    .sector-content > .about-tittle {
+        margin: 0;
+    }
+
+    .sector-details > .about-container {
+        padding: 0 0.769rem;
+        margin: 0;
+    }
+
+    .about-container:nth-child(2) 
+    .sector-content .about-description {
+        text-align: center;
+    }
+
+    .sector__about-tittle {
+        margin-top: 5rem;
+    }
+
+    .lineup__bottom-img {
+        aspect-ratio: 4.26/1;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 3.75rem 7.5rem;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

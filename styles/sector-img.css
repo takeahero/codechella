@@ -1,0 +1,7 @@
+.sector-img {
+    aspect-ratio: 1.31/1;
+    border-radius: 10px;
+    margin-top: 2rem;
+    object-fit:cover;
+    width: 100%;
+}
