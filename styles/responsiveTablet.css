@@ -71,7 +71,7 @@
         border-radius: 10px;
         margin-top: 2rem;
         object-fit:cover;
-        width: 95%;
+        width: 100%;
     }
 
     .lineup__bottom-img {

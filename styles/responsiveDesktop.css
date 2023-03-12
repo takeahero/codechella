@@ -46,6 +46,7 @@
         text-align: right;
     }
 
+    .about-img,
     .xp-img-1,
     .xp-img-2,
     .xp-img-3 {
@@ -86,10 +87,6 @@
         max-width: 100%;
         object-fit: cover;
         width: 100%
-    }
-
-    .about-img {
-        aspect-ratio: 1/1;
     }
 
     .sector-details {
