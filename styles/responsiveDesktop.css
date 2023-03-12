@@ -10,6 +10,16 @@
         margin-left: 0;
     }
 
+    .home-banner-container,
+    .xp-banner-container,
+    .sector-banner-container,
+    .ingresso-banner-container,
+    .info-banner-container,
+    .confirma-ingresso-banner-container {
+        height: 25.438rem;
+    }
+
+
     .about-content {
         margin: 0 3.047rem;
     }
@@ -36,7 +46,6 @@
         text-align: right;
     }
 
-    .about-img,
     .xp-img-1,
     .xp-img-2,
     .xp-img-3 {
@@ -62,18 +71,25 @@
         aspect-ratio: 1.60/1;
         max-width: 100%;
         object-fit: cover;
+        width: 100%
     }
 
     .sector-img-2 {
-        aspect-ratio: 1.60/.93;
+        aspect-ratio: 1.60/.82;
         max-width: 100%;
         object-fit: cover;
+        width: 100%
     }
 
     .sector-img-3 {
-        aspect-ratio: 1.60/.933;
+        aspect-ratio: 1.60/.82;
         max-width: 100%;
         object-fit: cover;
+        width: 100%
+    }
+
+    .about-img {
+        aspect-ratio: 1/1;
     }
 
     .sector-details {
@@ -87,6 +103,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
+        width: 33.33%;
+        flex-grow: 1;
     }
 
     .sector-content > .about-description {

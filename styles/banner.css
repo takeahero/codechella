@@ -1,83 +1,134 @@
-.banner-home {
+/*home*/
+.home-banner-container {
+    height: 16.875rem;
     background-image: url(../assets/welcome-img.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.banner-home {
     color: var(--gray);
     font-size: 2rem;
     font-family: var(--second-font);
-    height: auto;
-    padding: 8rem 0;
-    text-align: center;
     width: 100%;
+    text-align: center;
+}
+
+
+/*xp*/
+.xp-banner-container {
+    height: 16.875rem;
+    background-image: url(../assets/summer8.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden; 
 }
 
 .banner-xp {
-    background-image: url(../assets/summer8.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
     color: var(--gray);
     font-size: 2rem;
     font-family: var(--second-font);
-    height: auto;
-    padding: 8rem 0;
     text-align: center;
     width: 100%;
+}
+
+
+/*map*/
+.sector-banner-container {
+    height: 16.875rem;
+    background-image: url(../assets/setoresBanner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden; 
 }
 
 .banner-map {
-    background-image: url(../assets/setoresBanner.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
     color: var(--gray);
     font-size: 2rem;
     font-family: var(--second-font);
-    height: auto;
-    padding: 8rem 0;
     text-align: center;
     width: 100%;
+}
+
+/*info*/
+.info-banner-container {
+    height: 16.875rem;
+    background-image: url(../assets/infoGeralBanner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden; 
 }
 
 .banner-info {
-    background-image: url(../assets/infoGeralBanner.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
     color: var(--gray);
     font-size: 2rem;
     font-family: var(--second-font);
-    height: auto;
-    padding: 8rem 0;
     text-align: center;
     width: 100%;
+}
+
+
+/*ingresso*/
+.ingresso-banner-container {
+    height: 16.875rem;
+    background-image: url(../assets/ingressoBanner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden; 
 }
 
 .banner-ingresso {
-    background-image: url(../assets/ingressoBanner.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
     color: var(--gray);
     font-size: 2rem;
     font-family: var(--second-font);
-    height: auto;
-    padding: 8rem 0;
     text-align: center;
     width: 100%;
 }
 
-.banner-confirma-ingresso {
+
+/*confirma ingresso*/
+.confirma-ingresso-banner-container {
+    height: 16.875rem;
     background-image: url(../assets/confirmaIngresso.jpeg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    overflow: hidden; 
+}
+
+.banner-confirma-ingresso {
     color: var(--gray);
     font-size: 2rem;
     font-family: var(--second-font);
-    height: auto;
-    padding: 8rem 0;
     text-align: center;
     width: 100%;
 }

@@ -1,4 +1,6 @@
-.sector-img {
+.sector-img-1,
+.sector-img-2,
+.sector-img-3 {
     aspect-ratio: 1.31/1;
     border-radius: 10px;
     margin-top: 2rem;

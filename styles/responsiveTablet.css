@@ -26,6 +26,16 @@
         display: none;
     }
 
+    .home-banner-container,
+    .xp-banner-container,
+    .sector-banner-container,
+    .ingresso-banner-container,
+    .info-banner-container,
+    .confirma-ingresso-banner-container {
+        height: 23.813rem;
+    }
+
+
     .bands-container {
         margin-top: 3rem;
         margin-bottom: 3rem;
