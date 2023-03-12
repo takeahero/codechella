@@ -54,6 +54,17 @@
         width: 50%;
     }
 
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content.home-content h2 {
+        text-align: center;
+    }
+
     .about-container .about-description {
         font-size: 1.25rem;
         margin: 0;

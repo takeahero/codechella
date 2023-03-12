@@ -1,15 +1,24 @@
 /*home*/
 .home-banner-container {
-    height: 16.875rem;
-    background-image: url(../assets/welcome-img.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: 16.875rem;
+    justify-content: center;
     object-fit: cover;
     overflow: hidden;
+    position: relative;
+}
+
+.home-banner-container::before {
+    background-image: url(../assets/welcome-img.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    content: "";
+    inset: 0;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
 }
 
 .banner-home {
@@ -23,16 +32,25 @@
 
 /*xp*/
 .xp-banner-container {
+    align-items: center;
+    display: flex;
     height: 16.875rem;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.xp-banner-container::before {
     background-image: url(../assets/summer8.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-    overflow: hidden; 
+    content: "";
+    inset: 0;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
 }
 
 .banner-xp {
@@ -46,16 +64,25 @@
 
 /*map*/
 .sector-banner-container {
+    align-items: center;
+    display: flex;
     height: 16.875rem;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.sector-banner-container::before {
     background-image: url(../assets/setoresBanner.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-    overflow: hidden; 
+    content: "";
+    inset: 0;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
 }
 
 .banner-map {
@@ -68,16 +95,25 @@
 
 /*info*/
 .info-banner-container {
+    align-items: center;
+    display: flex;
     height: 16.875rem;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.info-banner-container::before {
     background-image: url(../assets/infoGeralBanner.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-    overflow: hidden; 
+    content: "";
+    inset: 0;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
 }
 
 .banner-info {
@@ -91,16 +127,25 @@
 
 /*ingresso*/
 .ingresso-banner-container {
+    align-items: center;
+    display: flex;
     height: 16.875rem;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.ingresso-banner-container::before {
     background-image: url(../assets/ingressoBanner.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-    overflow: hidden; 
+    content: "";
+    inset: 0;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
 }
 
 .banner-ingresso {
@@ -114,15 +159,25 @@
 
 /*confirma ingresso*/
 .confirma-ingresso-banner-container {
-    height: 16.875rem;
-    background-image: url(../assets/confirmaIngresso.jpeg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
+    height: 16.875rem;
+    justify-content: center;
     object-fit: cover;
-    overflow: hidden; 
+    overflow: hidden;
+    position: relative;
+}
+
+.confirma-ingresso-banner-container::before {
+    background-image: url(../assets/confirmaIngresso.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    content: "";
+    inset: 0;
+    opacity: .5;
+    position: absolute;
+    z-index: -1;
 }
 
 .banner-confirma-ingresso {
