@@ -51,7 +51,7 @@
     .xp-img-2,
     .xp-img-3 {
         aspect-ratio: 1.60/1;
-        width: 50%;
+        width: 100%;
     }
 
     .home-content {
@@ -59,6 +59,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-basis: 50%;
     }
 
     .about-content.home-content h2 {
