@@ -1,16 +1,13 @@
 @import url("header.css");
-@import url("info.css");
 @import url("buttons.css");
 @import url("banner.css");
 @import url("infoGeral.css");
-@import url("xp-img.css");
-@import url("sector-img.css");
+@import url("experiencia.css");
+@import url("sector.css");
 @import url("index.css");
-@import url(form.css);
+@import url(ingresso.css);
 @import url(confirma-ingresso.css);
 @import url("footer.css");
-@import url(responsiveTablet.css);
-@import url(responsiveDesktop.css);
 
 * {
     margin: 0;
@@ -20,6 +17,7 @@
 }
 
 :root {
+    --blue: rgb(67, 157, 203);
     --dark-blue: rgb(46, 124, 163);
     --light-blue: rgb(200, 222, 239);
     --dark-blue-transparency: rgb(46, 124, 163, 0.5);

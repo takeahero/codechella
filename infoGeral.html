@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
@@ -38,79 +39,68 @@
     </header>
     <!-- welcome banner -->
     <div class="info-banner-container">
-      <h1 class="banner-info">Informações Gerais</h1>
+    	<h1 class="banner-info">Informações Gerais</h1>
     </div>
 
-      <section class="info-container">
-        <h2 class="about-tittle">Perguntas frequentes</h2>
-        
-        <!-- accordion section -->
-        <div class="accordion">
-          <input id="toggle1" type="radio" class="accordion-toggle" name="toggle" />
-          <label for="toggle1">Quais serão as atrações do evento?</label>
-          <section>
-            <p class="acc-description">
-              Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo 
-              (12/03) com bandas pop. Confira o line-up em detalhes clicando neste <a href="index.html">link!</a>
-            </p>
-          </section>
-        </div>
-        
-        <div class="accordion">
-          <input id="toggle2" type="radio" class="accordion-toggle" name="toggle" />
-          <label for="toggle2">Qual é a classificação etária? </label>
-          <section>
-            <p class="acc-description">
-              A partir de 16 anos, todo mundo pode entrar. De 13 a 15 anos, tem que estar 
-              acompanhado dos pais ou responsáveis legais. Menores de 10 anos não podem entrar.
-            </p>
-          </section>
-        </div>
-          
-        <div class="accordion">
-          <input id="toggle3" type="radio" class="accordion-toggle" name="toggle" />
-          <label for="toggle3">Quais são os setores disponíveis?</label>
-          <section>
-            <ul class="acc-list">
-              <li class="acc-list__item">Pista premium</li>
-              <li class="acc-list__item">Pista comum</li>
-              <li class="acc-list__item">Cadeiras térreo</li>
-              <li class="acc-list__item">Cadeiras superiores</li>
-              <li class="acc-list__item">Rampas</li>
-            </ul>
-            <p class="acc-description">Para mais informações acesse a página de 
-              <a href="sector.html">setores</a>.</p>
-          </section>
-        </div>
-        
-        <div class="accordion">
-          <input id="toggle4" type="radio" class="accordion-toggle" name="toggle" />
-          <label for="toggle4">Quais são os itens proibidos?</label>
+	<!-- accordion -->
+	<section class="faq">
+		<h2 class="faq-title">Perguntas frequentes</h2>
 
-          <section>
-            <p class="acc-description">
-              Garrafas, latas, bebidas, utensílios de armazenagem, embalagens rígidas com tampa, 
-              capacetes, cadeiras ou bancos, armas de fogo e armas brancas, objetos pontiagudos, 
-              cortantes e/ou perfurantes, correntes e cinturões, fogos de artifício, objetos de 
-              vidro, substâncias inflamáveis, cigarro eletrônico, corrosivas e ou tóxicas, 
-              revistas, jornais, livros e copo térmico ou similares.
-            </p>
-          </section>
-        </div>
-        
-        <div class="accordion">
-          <input id="toggle5" type="radio" class="accordion-toggle" name="toggle" />
-          <label for="toggle5">Quem tem direito a meia-entrada?</label>
-          <section>
-            <p class="acc-description">
-              De acordo com a Lei Federal, têm direito ao benefício da meia-entrada aqueles que 
-              preencherem os requisitos e apresentarem os documentos comprobatórios.
-            </p>
-          </section>
-        </div>        
+	<dl class="faq-list">
+		<dt class="faq-question">Quais serão as atrações?</dt>
+		<dd class="faq-answer">
+			<div>
+				Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo 
+				(12/03) com bandas pop. Confira o line-up em detalhes clicando neste 
+        <a href="index.html">link!</a>
+			</div>
+		</dd>
 
-      </section>
+		<dt class="faq-question">Qual é a classificação etária?</dt>
+		<dd class="faq-answer">
+			<div>
+				A partir de 16 anos, todo mundo pode entrar. De 13 a 15 anos, 
+				tem que estar acompanhado dos pais ou responsáveis legais. 
+				Menores de 10 anos não podem entrar.
+			</div>
+		</dd>
 
+		<dt class="faq-question">Quais são os setores disponíveis?</dt>
+		<dd class="faq-answer">
+      <div>
+			<ul class="faq-answer--list">
+				<li class="faq-answer--list--item">Pista Premium</li>
+				<li class="faq-answer--list--item">Pista Comum</li>
+				<li class="faq-answer--list--item">Cadeiras térreo</li>
+				<li class="faq-answer--list--item">Cadeiras superiores</li>
+				<li class="faq-answer--list--item">Rampas</li>
+			</ul>
+		</dd>
+    </div>
+
+		<dt class="faq-question">Quais são os itens proibidos?</dt>
+		<dd class="faq-answer">
+			<div>
+				Garrafas, latas, bebidas, utensílios de armazenagem, 
+				embalagens rígidas com tampa, capacetes, cadeiras ou bancos, 
+				armas de fogo e armas brancas, objetos pontiagudos, 
+				cortantes e/ou perfurantes, correntes e cinturões, fogos de artifício, 
+				objetos de vidro, substâncias inflamáveis, cigarro eletrônico, 
+				corrosivas e ou tóxicas, revistas, jornais, 
+				livros e copo térmico ou similares.
+			</div>
+		</dd>
+
+		<dt class="faq-question">Quem tem direito a meia-entrada?</dt>
+		<dd class="faq-answer">
+			<div>
+				De acordo com a Lei Federal, têm direito ao benefício da meia-entrada 
+				aqueles que preencherem os requisitos e apresentarem os documentos 
+				comprobatórios.
+			</div>
+		</dd>
+	</dl>
+	</section>
 
     <!-- footer -->
     <footer class="footer">
@@ -142,5 +132,6 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/accordion.js"></script>
 </body>
 </html>

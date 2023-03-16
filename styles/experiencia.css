@@ -1,0 +1,112 @@
+.xp-content {
+    margin: 0 1.5rem;
+}
+
+.xp-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.xp-img-1,
+.xp-img-2,
+.xp-img-3 {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    max-width: 312px;
+    max-height: 381px;
+    object-fit: cover;
+}
+
+.xp-title {
+    margin: 2rem 0 1.5rem 0;
+    font-size: 2rem;
+    font-family: var(--main-font);
+    color: var(--gray);
+    text-align: center;
+}
+
+.xp-description {
+    font-family: var(--main-font);
+    color: var(--gray);
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .xp-banner-container {
+        height: 23.813rem;
+    }
+
+    .xp-content {
+        margin: 0 4.969rem;
+    }
+
+    .xp-img-1,
+    .xp-img-2,
+    .xp-img-3,
+    .xp-img-container {
+        margin: 0;
+    }
+ 
+    .xp-img-1,
+    .xp-img-2,
+    .xp-img-3 {
+        border-radius: 10px;
+        margin-top: 2rem;
+        width: 100%;
+        height: 100%;
+        max-width: 609px;
+        max-height: 381px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .xp-banner-container {
+        height: 25.438rem;
+    }
+
+    .xp-container {
+        display: flex;
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+
+    .xp-description,
+    .xp-title {
+        width: 80%;
+        align-self: center;
+        margin-top: 1.5rem;
+        text-align: left;
+    }
+
+    .xp-content {
+        display: flex;
+    }
+
+    .xp-content:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+
+    .xp-container .xp-content:nth-child(2) .xp-title {
+        text-align: right;
+    }
+
+    .xp-container .xp-content:nth-child(2) .xp-description {
+        text-align: right;
+    }
+
+    .xp-content-item {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 50%;
+        margin-left: 3rem;
+    }
+}
+

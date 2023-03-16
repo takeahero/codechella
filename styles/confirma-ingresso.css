@@ -1,28 +1,45 @@
+.confirma-ingresso-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirma-ingresso-title{
+    margin: 2rem 1.5rem 1.5rem 1.5rem;
+    font-size: 2rem;
+    font-family: var(--main-font);
+    color: var(--gray);
+    text-align: center;
+}
+
 .ticket-qr {
     background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
     border-radius: 15px;
     box-shadow: 0px 0px 10px 0px rgba(4, 4, 4, 0.2);
     margin: 2rem auto 0 auto;
     padding: 2rem;
-    width: 70%;
+    width: 86.5%;
 }
 
 .qr-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
 }
 
 .qr-logo--gray {
-    width: 45%;
+    max-height: 2rem;
 }
 
 .qr-fav-icon {
-    width: 10%;
+    max-height: 2rem;
 }
 
 .qr-code {
     margin: 2rem auto 0 auto;
-    width: 80%;
+    width: 100%;
+    max-width: 310px;
+    max-height: 310px;
 }
 
 .qr-img {
@@ -38,14 +55,65 @@
     gap: 1rem;
     justify-content: center;
     margin-top: 2rem;
+    width: 100%;
 }
 
 .cardholder-name {
     font-size: 2rem;
     font-weight: 700;
+    text-align: center;
+    width: 100%;
 }
 
 .ticket-details {
     font-size: 1.25rem;
     font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .confirma-ingresso-banner-container {
+        height: 23.813rem;
+    }
+
+    .confirma-ingresso-container {
+        margin: 0 3.75rem;
+}
+
+    .ticket-qr {
+        width: 84.5%;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .ticket-qr {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+
+    .qr-body {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .confirma-ingresso-banner-container {
+        height: 25.438rem;
+    }
+
+    .confirma-ingresso-title {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        width: 65%;
+    }
+
+    .cardholder-details {
+        align-items: flex-start;
+        margin-left: 3rem;
+    }
+
+    .cardholder-name {
+        text-align: left;
+    }
+    
 }

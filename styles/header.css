@@ -77,3 +77,45 @@ hr {
 .close-icon.material-icons {
     color: var(--white);
 }
+
+@media screen and (min-width: 760px) {
+    /*header*/
+    .nav-container {
+        align-items: center;
+        flex-direction: column;
+        height: 12.5rem;
+        justify-content: center;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
+        flex-direction: row;
+        font-size: 1.25rem;
+        height: auto;
+        position: sticky;
+        padding-top: 0;
+        padding-bottom: 0;
+        transform: none;
+        top: 0;
+        width: 100%;
+    }
+
+    .menu > hr {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .nav-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 14.625rem;
+        margin-left: 0;
+    }
+}
