@@ -68,6 +68,7 @@
     font-size: 1rem;
     font-family: var(--main-font);
     padding: 0.313rem 0.313rem;
+    height: 2rem;
 }
 
 .label-float select{
