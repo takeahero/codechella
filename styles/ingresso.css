@@ -100,10 +100,32 @@
     padding: 0.313rem 2rem;
 }
 
-
 .form-card,
 .form-header {
     width: 100%;
+}
+
+.age-error-msg--prohibited,
+.age-error-msg--parental {
+    font-family: var(--main-font);
+    color: var(--gray);
+    text-align: start;
+    font-size: .7rem;
+    margin-top: .5rem;
+    opacity: 80%;
+}
+
+.age-agreement-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.age-agree {
+    font-family: var(--main-font);
+    color: var(--gray);
+    text-align: center;
+    font-size: .8rem;
 }
 
 @media screen and (min-width: 768px){

@@ -60,29 +60,53 @@
         
                 <div class="label-float">
 					<label id="labelUser" for="user">Nome Completo</label>
-					<input type="text" id="user" placeholder="" required>
-                </div>
+					<input type="text" id="user" placeholder=""  minlength="6" required>
+					<p class="name-error-msg">
+          		</div>
     
                 <div class="label-float">
 					<label id="labelEmail" for="email">Email</label>
-					<input type="email" id="email" placeholder=" " required>
+					<input type="email" id="email" placeholder=""  minlength="5" required>
                 </div>
                 
                 <div class="label-float">
-					<label id="labelTicket" for="ticket">Tipo de ingresso</label>
-					<select type="" id="ticket" placeholder=" " required>
+					<label id="labelSector" for="sector">Setor</label>
+					<select type="" id="sector" placeholder=" " required>
 						<option value="">--Selecione--</option>
 						<option value="pista-premium">Pista premium</option>
 						<option value="pista-comum">Pista comum</option>
 						<option value="cadeira-1f">Cadeiras térreo</option>
 						<option value="cadeira2f">Cadeiras superiores</option>
-					</select>
-                   
+					</select>   
+                </div>
+
+				<div class="label-float">
+					<label id="labelTicket" for="ticket">Tipo de ingresso</label>
+					<select type="" id="ticket" placeholder=" " required>
+						<option value="">--Selecione--</option>
+						<option value="inteira">Inteira</option>
+						<option value="meia">Meia entrada</option>
+						<option value="cortesia">Cortesia</option>
+					</select>   
                 </div>
     
                 <div class="label-float">
 					<label id="labelBirthday" for="birthday">Data de nascimento</label>
-					<input type="date" id="birthday" placeholder=" " required>
+					<input type="date" id="birthday" placeholder="" required>
+					<p class="age-error-msg--prohibited">
+						É proibida a entrada de menores de 13 anos de idade.
+					</p>
+					<p class="age-error-msg--parental">
+						Pessoas entre 13 e 15 anos de idade devem estar acompanhadas dos pais
+						ou responsáveis legais.
+					</p>
+                </div>
+
+                <div class="age-agreement-container">
+                  <input type="checkbox" id="ageAgree" placeholder="" required>
+				  <p class="age-agree">
+					Eu concordo com a faixa etária permitida.
+				  </p>
                 </div>
                 
                 <div class="form-btn">
@@ -90,9 +114,9 @@
                 </div>
     
         
-      </div>
-      </div>
-  </section>
+    </div>
+    </div>
+</section>
 
 
     <!-- footer -->
@@ -125,6 +149,6 @@
     </footer>
 
     <script src="js/menu.js"></script>
-    <script src="js/ticket.js"></script>
+    <script src="js/ingresso.js" ></script>
 </body>
 </html>
