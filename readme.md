@@ -6,15 +6,21 @@ CodeChella is an fictitious alternative music festival that takes place openly, 
 enchanting and unforgettable experience for the visitor, providing a multicultural and social integration.  
 Aiming at publicizing it and selling tickets, the festival implements a website that enables these actions:
 
-## 🚀 What i've learned  
+## 🚀 About the experience
 
 I learned how important class names and indentation are for efficient styling.  
 Despite never having used a framework, I began to wonder why it is important for a more fluid development.  
-But I dont't learning about the framework yet and continue practicing just with html and css.
+But I dont't learning about the framework yet and continue practicing just with html and css.  
+  
+I participated in this challenge to practice html and css, getting a simple javascript menu to work was a surprise even for me.  
+  
+realized that I must bring my javascript knowledge to the same level as my html and css. This may be what I need to finish this challenge.
 
 ## 📋 Notes
 
-some parts of the project are not finished yet.
+some parts of the project are not finished yet.  
+  
+form validation is not working because I haven't learned about this topic yet.
 
 ## 🔧 Stacks  
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  

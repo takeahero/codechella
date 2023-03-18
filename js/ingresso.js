@@ -107,9 +107,9 @@ btnEnviar.addEventListener('click', function(event) {
     const infoDiv = document.querySelector("#userInfoPrint");
         
         infoDiv.innerHTML = `
-            <h3  id="cardholderName" class="cardholder-name">${userInfo.nome}</h3>
-            <p  id="ticketType" class="ticket-details">${userInfo.tipoIngresso}</p>
-            <p  id="sector" class="ticket-details">${userInfo.setor}</p>
+            <h3  id="cardholderName" class="cardholder-name"> ${userInfo.nome}</h3>
+            <p  id="ticketType" class="ticket-details"> ${userInfo.tipoIngresso}</p>
+            <p  id="sector" class="ticket-details"> ${userInfo.setor}</p>
         `;
 });
 
