@@ -1,24 +1,30 @@
 const userInput = document.querySelector("#user");
 const labelUser = document.querySelector("#labelUser");
+const valueUser = userInput.value;
 
 const emailInput = document.querySelector("#email");
 const labelEmail = document.querySelector("#labelEmail");
+const valueEmail = emailInput.value;
 
 const birthdayInput = document.querySelector("#birthday");
 const labelBirthday = document.querySelector("#labelBirthday");
+const valueBirthday = birthdayInput.value;
 
 const sector = document.querySelector('#sector');
 const labelSector = document.querySelector('#labelSector');
+const valueSector = sector.value;
 let validSector = false;
 
 const ticket = document.querySelector('#ticket');
 const labelTicket = document.querySelector('#labelTicket');
+const valueTicket = ticket.value;
 let validTicket = false;
 
-userInput.addEventListener("blur", function() {
-    const user = userInput.value;
+const btnEnviar = document.querySelector('.form-btn button');
 
-    if (/^[A-Za-z ]+$/.test(user)) {
+userInput.addEventListener("blur", function() {
+
+    if (/^[A-Za-z ]+$/.test(valueUser)) {
         document.querySelector(".name-error-msg").style.display = "none";
         labelUser.setAttribute('style', 'color: #2ea296');
         userInput.setAttribute('style', 'border-color: #2ea296');
@@ -30,9 +36,8 @@ userInput.addEventListener("blur", function() {
 });
 
 emailInput.addEventListener("blur", function() {
-  const email = emailInput.value;
 
-    if (/^\S+@\S+\.\S+$/.test(email)) {
+    if (/^\S+@\S+\.\S+$/.test(valueEmail)) {
         emailInput.setCustomValidity("");
         labelEmail.setAttribute('style', 'color: #2ea296');
         emailInput.setAttribute('style', 'border-color: #2ea296');
@@ -83,3 +88,28 @@ birthdayInput.addEventListener ("change", function() {
         birthdayInput.setAttribute('style', 'border-color: #2ea296');
     }
 })
+
+btnEnviar.addEventListener('click', function(event) {
+  event.preventDefault();
+
+  const userInfo = {
+    nome: valueUser,
+    email: valueEmail,
+    setor: valueSector,
+    tipoIngresso: valueTicket,
+    dataNascimento: valueBirthday,
+};
+
+    localStorage.setItem('userInfo', JSON.stringify(userInfo));
+    
+    window.location.href = 'confirma-ingresso.html';
+
+    const infoDiv = document.querySelector("#userInfoPrint");
+        
+        infoDiv.innerHTML = `
+            <h3  id="cardholderName" class="cardholder-name">${userInfo.nome}</h3>
+            <p  id="ticketType" class="ticket-details">${userInfo.tipoIngresso}</p>
+            <p  id="sector" class="ticket-details">${userInfo.setor}</p>
+        `;
+});
+
