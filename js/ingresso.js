@@ -23,8 +23,10 @@ let validTicket = false;
 const btnEnviar = document.querySelector('.form-btn button');
 
 userInput.addEventListener("blur", function() {
+    const valueUserValidate = userInput.value;
 
-    if (/^[A-Za-z ]+$/.test(valueUser)) {
+
+    if (/^[A-Za-z ]+$/.test(valueUserValidate)) {
         document.querySelector(".name-error-msg").style.display = "none";
         labelUser.setAttribute('style', 'color: #2ea296');
         userInput.setAttribute('style', 'border-color: #2ea296');
@@ -36,8 +38,9 @@ userInput.addEventListener("blur", function() {
 });
 
 emailInput.addEventListener("blur", function() {
+    const valueEmailValidate = emailInput.value;
 
-    if (/^\S+@\S+\.\S+$/.test(valueEmail)) {
+    if (/^\S+@\S+\.\S+$/.test(valueEmailValidate)) {
         emailInput.setCustomValidity("");
         labelEmail.setAttribute('style', 'color: #2ea296');
         emailInput.setAttribute('style', 'border-color: #2ea296');
