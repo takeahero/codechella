@@ -20,6 +20,8 @@ const labelTicket = document.querySelector('#labelTicket');
 const valueTicket = ticket.value;
 let validTicket = false;
 
+const form = document.getElementById("form");
+
 const btnEnviar = document.querySelector('.form-btn button');
 
 userInput.addEventListener("blur", function() {
@@ -95,24 +97,17 @@ birthdayInput.addEventListener ("change", function() {
 btnEnviar.addEventListener('click', function(event) {
   event.preventDefault();
 
-  const userInfo = {
-    nome: valueUser,
-    email: valueEmail,
-    setor: valueSector,
-    tipoIngresso: valueTicket,
-    dataNascimento: valueBirthday,
-};
+    const userInfo = {
+        "nome": userInput.value,
+        "email": emailInput.value,
+        "setor": sector.value,
+        "tipoIngresso": ticket.value,
+        "dataNascimento": birthdayInput.value
+    }
 
-    localStorage.setItem('userInfo', JSON.stringify(userInfo));
+    localStorage.setItem("userInfo", JSON.stringify(userInfo));
     
     window.location.href = 'confirma-ingresso.html';
 
-    const infoDiv = document.querySelector("#userInfoPrint");
-        
-        infoDiv.innerHTML = `
-            <h3  id="cardholderName" class="cardholder-name"> ${userInfo.nome}</h3>
-            <p  id="ticketType" class="ticket-details"> ${userInfo.tipoIngresso}</p>
-            <p  id="sector" class="ticket-details"> ${userInfo.setor}</p>
-        `;
-});
+})
 
